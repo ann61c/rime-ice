@@ -210,6 +210,9 @@
 什么是	sms
 什么啊	sma
 
+可以    key
+如果    rug
+
 
 go	go
 Golang	golang
