@@ -214,8 +214,7 @@
 如果    rug
 
 
-Go	go	2
-go	go	1
+go	go
 Golang	golang
 Hugo	hugo
 goto	goto
