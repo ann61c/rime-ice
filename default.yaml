@@ -55,16 +55,16 @@ switcher:
 # commit_code  上屏原始的编码，然后切换到英文
 # commit_text  上屏拼出的词句，然后切换到英文
 # clear        清除未上屏内容，然后切换到英文
-# inline_ascii 无输入时，切换中英；有输入时，切换到临时英文模式，按回车上屏后回到中文状态
+# inline_ascii 切换到临时英文模式，按回车上屏后回到中文状态
 # noop         屏蔽快捷键，不切换中英，但不要屏蔽 CapsLock
 ascii_composer:
   good_old_caps_lock: false  # true | false
   switch_key:
-    Caps_Lock: commit_code  # commit_code | commit_text | clear
-    Shift_L: commit_code     # commit_code | commit_text | inline_ascii | clear | noop
-    Shift_R: commit_code     # commit_code | commit_text | inline_ascii | clear | noop
-    Control_L: noop   # commit_code | commit_text | inline_ascii | clear | noop
-    Control_R: noop   # commit_code | commit_text | inline_ascii | clear | noop
+    Caps_Lock: commit_code      # commit_code | commit_text | clear
+    Shift_L: commit_code  # commit_code | commit_text | inline_ascii | clear | noop
+    Shift_R: noop         # commit_code | commit_text | inline_ascii | clear | noop
+    Control_L: noop       # commit_code | commit_text | inline_ascii | clear | noop
+    Control_R: noop       # commit_code | commit_text | inline_ascii | clear | noop
 
 
 ###################################################################################
@@ -187,7 +187,6 @@ key_binder:
     - { when: has_menu, accept: equal, send: Page_Down }
 
     # 翻页 , .
-    # 需要额外注释掉方案中 recognizer/patterns 下的 url_2 选项（这个会覆盖掉句号的行为）
     # - { when: paging, accept: comma, send: Page_Up }
     # - { when: has_menu, accept: period, send: Page_Down }
 
@@ -275,7 +274,7 @@ key_binder:
 # Cancel	取消
 # Help	帮助
 # Break	中断
-# space
+# space	空格
 # exclam	!
 # quotedbl	"
 # numbersign	#
@@ -299,7 +298,7 @@ key_binder:
 # question	?
 # at	@
 # bracketleft	[
-# backslash	
+# backslash	\
 # bracketright	]
 # asciicircum	^
 # underscore	_
