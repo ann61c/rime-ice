@@ -33,7 +33,7 @@ schema:
 # reset: 默认状态。 注释掉后，切换窗口时不会重置到默认状态。
 switches:
   - name: ascii_mode
-    states: [ 中, A ]
+    states: [ 中, Ａ ]
     reset: 0
   - name: ascii_punct # 中英标点
     states: [ ¥, $ ]
@@ -108,7 +108,7 @@ reduce_english_filter:
   lux, moc, mos, mot, mum, nad, nay, nib, nip, pak, pap, pax, rig, rum, sac, sal,
   sax, sec, shin, sis, ska, slang, sus, tad, taj, tac, tic, yep, yum, fax, cain,
   key, mob, buy, dam, wap, yes, but, put, lag, buf, lip, aid, aim, dig, dim, din,
-  dip, pail, cad, chap, bend, lid, gem, tin, tum]
+  dip, pail, cad, chap, bend, lid, gem, tin, tum, my, went, youd, hes]
 
 
 # 主翻译器，拼音
@@ -261,5 +261,4 @@ speller:
     - xform/ui$/Ⓥ/
     - xform/in$/Ⓑ/
     - xlit/ⓆⓌⓇⓉⓎⓊⒾⓄⓅⓈⒹⒻⒼⒽⒿⓀⓁⓏⓍⒸⓋⒷⓃⓂ/qwrtyuiopsdfghjklzxcvbnm/
-    - abbrev/^(.).+$/$1/  # 首字母简拼
-  
+    - abbrev/^(.).+$/$1/  # 首字母简拼，开启后会导致 3 个字母时 kj'x 变成 k'jx 的问题
