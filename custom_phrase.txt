@@ -209,8 +209,9 @@
 什么是	sms
 什么啊	sma
 
-可以    key
-如果    rug
+可以    key 1
+如果    rug 1
+朋友    py 1
 
 
 go	go
