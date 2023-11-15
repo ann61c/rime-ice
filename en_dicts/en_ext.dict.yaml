@@ -7,7 +7,7 @@
 #
 ---
 name: en_ext
-version: "2023-10-14"
+version: "2023-11-13"
 sort: by_weight
 ...
 # 一些杂项
@@ -122,6 +122,24 @@ Chandler	Chandler
 Phoebe	Phoebe
 
 
+# 特定的排序，为了每组的排序，code 必须保持一致
+hell	hell	2
+he'll	hell	1
+shell	shell	2
+she'll	shell	1
+well	well	2
+we'll	well	1
+ill	ill	2
+I'll	ill	1
+ID	id	2
+I'd	id	1
+shed	shed	2
+she'd	shed	1
+net	net	2
+.NET	net	1
+.NET	dotnet
+
+
 # 带权重的系列
 iPhone	iPhone	999
 iPhone 15	iPhone	4
@@ -168,26 +186,8 @@ Windows 8	Windows	8
 Windows 10	Windows	10
 Windows 11	Windows	11
 
-# 为了每组的排序，code 必须保持一致
-hell	hell	2
-he'll	hell	1
-shell	shell	2
-she'll	shell	1
-well	well	2
-we'll	well	1
-ill	ill	2
-I'll	ill	1
-ID	id	2
-I'd	id	1
-shed	shed	2
-she'd	she'd	1
-
-
 
 # +_+
-ERC-20	ERC-20
-ERC-721	ERC-721
-ERC-1155	ERC-1155
 iPhone 3G	iPhone3G
 iPhone 3GS	iPhone3GS
 iPhone 4	iPhone4
@@ -257,6 +257,9 @@ Windows 7	Windows7
 Windows 8	Windows8
 Windows 10	Windows10
 Windows 11	Windows11
+ERC-20	ERC-20
+ERC-721	ERC-721
+ERC-1155	ERC-1155
 cheetah	cheetah
 mavericks	mavericks
 High Sierra	HighSierra
@@ -429,7 +432,7 @@ WYSIWYG	WYSIWYG
 What You See Is What You Get	WYSIWYG
 Mark Text	MarkText
 Joplin	Joplin
-Obsidian	Obsidian
+obsidian	obsidian
 SteamOS	SteamOS
 TikTok	TikTok
 IDC	IDC
@@ -820,9 +823,6 @@ Overcast	Overcast
 Overflow	Overflow
 PaintCode	PaintCode
 Parallels Desktop	ParallelsDesktop
-Password	Password
-Paste	Paste
-Paw	Paw
 PayPal	PayPal
 PhotoDesk	PhotoDesk
 Picatext	Picatext
@@ -863,12 +863,10 @@ Siri	Siri
 Sketch	Sketch
 Slicy	Slicy
 Snagit	Snagit
-Snip	Snip
 Sparkbox	Sparkbox
 Sparrow	Sparrow
 Speedtest	Speedtest
 Spotify	Spotify
-Spotlight	Spotlight
 SSL	SSL
 StackSocial	StackSocial
 Sublime Text	SublimeText
@@ -941,8 +939,6 @@ WSGI	WSGI
 BTC	BTC
 Bitcoin	BTC
 Bitcoin	Bitcoin
-template	template
-IMDb	IMDb
 gank	gank
 debuff	debuff
 MagSafe	MagSafe
@@ -1006,7 +1002,6 @@ Optical Character Recognition	OCR
 Optical Character Recognition	OpticalCharacterRecognition
 Déjà vu	Dejavu
 FFmpeg	FFmpeg
-Pokemon	Pokemon
 DMCA	DMCA
 Digital Millennium Copyright Act	DMCA
 Digital Millennium Copyright Act	DigitalMillenniumCopyrightAct
@@ -1124,7 +1119,6 @@ Shottr	Shottr
 turbo	turbo
 Turbo Boost	TurboBoost
 Turbo Boost Switcher	TurboBoostSwitcher
-P2P	P2P
 OPPO	OPPO
 vivo	vivo
 Uno	Uno
@@ -1237,7 +1231,6 @@ Windows Media Player	MediaPlayer
 Visual Studio Code	VisualStudioCode
 Visual Studio Code	VSCode
 PowerShell	PowerShell
-.NET	.NET
 Surface	Surface
 MSN	MSN
 Skype	Skype
@@ -1411,7 +1404,7 @@ Simple Mail Transfer Protocol	SMTP
 Simple Mail Transfer Protocol	SimpleMailTransferProtocol
 unacceptable	unacceptable
 Waterfox	Waterfox
-Let's Go	Let'sGo
+Let's go	Let'sgo
 one-liner	one-liner
 Callback	Callback
 SSID	SSID
@@ -1525,19 +1518,14 @@ deprecate	deprecate
 deprecated	deprecated
 tum	tum
 rapper	rapper
-fucked	fucked
 Fedora	Fedora
 downbeat	downbeat
 hading	hading
 LeetCode	LeetCode
 danced	danced
-swept	swept
-spun	spun
 ghosts	ghosts
-admiral	admiral
 moonlit	moonlit
 Helvetica	Helvetica
-rewrite	rewrite
 limon	limon
 annotate	annotate
 annotated	annotated
@@ -1560,7 +1548,6 @@ IdeaVim	IdeaVim
 unfo	unfo
 timestamp	timestamp
 ChatGPT	ChatGPT
-ChatGPT Plus	ChatGPTPlus
 OpenAI	OpenAI
 OpenAI Codex	OpenAICodex
 OpenAI ChatGPT	OpenAIChatGPT
@@ -1636,10 +1623,9 @@ RNA	RNA
 ribonucleic acid	RNA
 mRNA	mRNA
 messenger RNA	mRNA
-C++	Cpp
 C++	C++
+C++	Cpp
 Python	Python
-Perl	Perl
 MIT	MIT
 Massachusetts Institute of Technology	MIT
 Massachusetts Institute of Technology	MassachusettsInstituteofTechnology
@@ -2278,7 +2264,6 @@ add-on	add-on
 add-ons	add-ons
 C#	C#
 C#	Csharp
-C#	Cjing
 decode	decode
 KeyCastr	KeyCastr
 Laugh Tale	LaughTale
@@ -2300,7 +2285,7 @@ picosecond	picosecond
 femtosecond	femtosecond
 attosecond	attosecond
 I'm	I'm
-You're	You're
+you're	you're
 she's	she's
 we're	we're
 they're	they're
@@ -2342,3 +2327,40 @@ sorta	sorta
 lemme	lemme
 outta	outta
 whatcha	whatcha
+Google TV	GoogleTV
+PVP	PVP
+Player versus Player	PVP
+PVE	PVE
+player versus environment	PVE
+Elon	Elon
+Musk	Musk
+Logseq	Logseq
+WPS	WPS
+Morty	Morty
+destructible	destructible
+indestructible	indestructible
+Frundles	Frundles
+Brotato	Brotato
+homie	homie
+homey	homey
+cynical	cynical
+seduce	seduce
+pinky	pinky
+engineman	engineman
+unhuman	unhuman
+unhumified	unhumified
+unhumanize	unhumanize
+flares	flares
+P2P	P2P
+F2A	F2A
+B2B	B2B
+C2C	C2C
+B2C	B2C
+C2B	C2B
+O2O	O2O
+NBA 2K	NBA2K
+tempting	tempting
+WebCatalog	WebCatalog
+Apple One	AppleOne
+pixiv	pixiv
+M4A1	M4A1
