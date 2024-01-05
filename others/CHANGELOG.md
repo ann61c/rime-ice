@@ -4,9 +4,29 @@
 
 
 
+## 2024-01-02 🆕 🐛 ⚠️
+
+🆕 农历功能 [#565](https://github.com/iDvel/rime-ice/issues/565)
+
+🐛 长词优先 `long_word_filter.lua` 不提升包含英文、数字、emoji、假名的候选项 [#592](https://github.com/iDvel/rime-ice/issues/592)
+
+⚠️ 更新并修改 `weasel_style.yaml` 为 `weasel.yaml` （[#584](https://github.com/iDvel/rime-ice/pull/584)）
+
+## 2023-11-29
+
+九宫格方案 2~9 的映射由 ADGJMPTW 改为 23456789 [a0e0ef8](https://github.com/iDvel/rime-ice/commit/a0e0ef807e4ebc50771563717375f554c9473315)
+
+全键盘切换到九宫格方案不再需要删除词库中的大写字母。
+
+（更新至仓输入法商店版 2.1.0 或 TF 119 后可自动适应）
+
 ## 2023-10-30 📖
 
 完成同义多音字的注音问题 [#353](https://github.com/iDvel/rime-ice/issues/353)
+
+## 2023-09-08 🆕
+
+仓输入法九宫格方案 [72acbc7](https://github.com/iDvel/rime-ice/commit/72acbc7a2e53cbac7d6f3ab4a82bc457a7ed8f27)
 
 ## 2023-08-07 🆕
 
