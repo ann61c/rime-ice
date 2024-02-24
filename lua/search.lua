@@ -1,10 +1,9 @@
--- search.lua
--- 拼音辅码查询
 -- Copyright (C) Mirtle <mirtle.cn@outlook.com>
--- Distributed under terms of the MIT license.
--- select_notifier 逻辑取自 AuxFilter
+-- [CC BY 3.0 DEED](https://creativecommons.org/licenses/by/3.0/deed)
 
--- 使用说明：<https://github.com/mirtlecn/rime-radical-pinyin/search.lua.md>
+-- 使用说明：<https://github.com/mirtlecn/rime-radical-pinyin/blob/master/search.lua.md>
+
+-- 感谢 [AuxFilter](https://github.com/HowcanoeWang/rime-lua-aux-code/blob/main/lua/aux_code.lua) 提供参考
 
 local function alt_lua_punc(s)
     if s then
@@ -60,7 +59,7 @@ function f.init(env)
 
     f.sort = config:get_bool(ns .. "/show_other_cands")
 
-    -- 反引号作为查找的引导符号，需要加入 speller 的字母表当中 
+    -- 反引号作为查找的引导符号，需要加入 speller 的字母表当中
     f.search_key = config:get_string("key_binder/search") or config:get_string(ns .. "/key") or '`'
 
     -- 处理一下输入码，如果还有没有上屏的词，保留辅助码，否则，清除上屏码
@@ -96,7 +95,6 @@ function f.init(env)
             -- f.update_dict_entry(edit, no_search_string)
         end
     end)
-
 end
 
 -- function f.update_dict_entry(s, code)
@@ -173,7 +171,7 @@ function f.func(input, env)
     end
 
     -- 查字时是否单字优先
-    local if_single_char_first = env.engine.context:get_option("single_char")
+    local if_single_char_first = env.engine.context:get_option("search_single_char")
 
     local dict_table
     if f.if_schema_lookup then
@@ -234,7 +232,6 @@ function f.func(input, env)
             yield(cand)
         end
     end
-
 end
 
 function f.fini(env)
