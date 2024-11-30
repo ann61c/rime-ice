@@ -12,6 +12,7 @@ import_tables:
   - en_dicts/en      # 英文主词库
   - en_dicts/en.toefl # 托福词库
   - en_dicts/en.popular # the Most Common English Words
+  - en_dicts/en.custom  # 自定义词库
 
   # 中英混输词库
   # - en_dicts/cn_en                          # 全拼

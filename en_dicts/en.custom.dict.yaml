@@ -1,0 +1,10 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 自定义词库
+---
+name: en
+version: "2024-11-30"
+sort: by_weight
+...
+leggings	leggings
