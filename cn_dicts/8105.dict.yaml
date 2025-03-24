@@ -27,7 +27,7 @@
 # 需要注音的字词设定在 others/script/rime/需要注音.txt
 ---
 name: 8105
-version: "2025-02-01"
+version: "2025-03-07"
 sort: by_weight
 ...
 ### 按需启用
@@ -54,6 +54,7 @@ sort: by_weight
 睆	huan	1
 挼	rua	1
 㨃	dui	1
+跩	zhuai	1
 鿔	ge	1
 鿭	ni	1
 𫟷	li	1
@@ -672,8 +673,8 @@ sort: by_weight
 猹	cha	29
 蹅	cha	27
 嵖	cha	15
+𥻗	cha	3
 喳	cha	1
-𥻗	cha	0
 拆	chai	99444
 柴	chai	61680
 钗	chai	18040
@@ -841,6 +842,7 @@ sort: by_weight
 庱	cheng	4
 噌	cheng	1
 晟	cheng	1
+樘	cheng	1
 铛	cheng	1
 吃	chi	1445563
 持	chi	641315
@@ -997,6 +999,7 @@ sort: by_weight
 棰	chui	405
 倕	chui	17
 圌	chui	1
+椎	chui	1
 春	chun	414544
 纯	chun	212265
 唇	chun	161329
@@ -1183,6 +1186,7 @@ sort: by_weight
 惮	dan	16732
 石	dan	14278
 眈	dan	12773
+丼	dan	9000
 澹	dan	6736
 掸	dan	4870
 郸	dan	4714
@@ -2732,6 +2736,7 @@ sort: by_weight
 惎	ji	2
 期	ji	1
 鱾	ji	1
+𬶭	ji	1
 㴔	ji	0
 堲	ji	0
 徛	ji	0
@@ -2743,7 +2748,6 @@ sort: by_weight
 𫓹	ji	0
 𬯀	ji	0
 𬶨	ji	0
-𬶭	ji	0
 家	jia	4546765
 加	jia	1329722
 价	jia	384863
@@ -4316,7 +4320,7 @@ sort: by_weight
 勔	mian	58
 愐	mian	5
 偭	mian	1
-𩾃	mian	0
+𩾃	mian	1
 妙	miao	280421
 秒	miao	90580
 描	miao	87436
@@ -6470,6 +6474,7 @@ sort: by_weight
 维	wei	369458
 危	wei	279881
 委	wei	274305
+胃	wei	253113
 伟	wei	242973
 谓	wei	235703
 唯	wei	217658
@@ -6484,7 +6489,6 @@ sort: by_weight
 畏	wei	70481
 伪	wei	66990
 尉	wei	62071
-胃	wei	53113
 巍	wei	20904
 蔚	wei	20152
 偎	wei	18007
@@ -6750,6 +6754,7 @@ sort: by_weight
 嶍	xi	2
 暿	xi	1
 栖	xi	1
+腊	xi	1
 俙	xi	0
 熻	xi	0
 饻	xi	0
