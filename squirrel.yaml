@@ -43,8 +43,8 @@ app_options:
 
 style:
   # 选择皮肤，亮色与暗色主题
-  color_scheme: google
-  color_scheme_dark: psionics
+  color_scheme: retro_orange
+  color_scheme_dark: retro_orange
 
   # 以下是预设选项。如果皮肤没写，则使用这些属性；如果皮肤写了，使用皮肤的。
 
@@ -658,3 +658,31 @@ preset_color_schemes:
     border_width: 2
     border_height: 2
     border_color: 0x0093FF
+
+  retro_light_pink:
+    name: 櫻花熒光屏
+    author: ann61c
+    text_color: 0x9972FB
+    back_color: 0xFFFFFF
+    label_color: 0x9972FB
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_candidate_back_color: 0x9972FB
+    hilited_candidate_label_color: 0xFFFFFF
+    corner_radius: 16
+    border_width: 2
+    border_height: 2
+    border_color: 0x9972FB
+
+  retro_dark_pink:
+    name: 夜櫻熒光屏
+    author: ann61c
+    text_color: 0x9972FB
+    back_color: 0x1C1918
+    label_color: 0x9972FB
+    hilited_candidate_text_color: 0x1C1918
+    hilited_candidate_back_color: 0x9972FB
+    hilited_candidate_label_color: 0x1C1918
+    corner_radius: 16
+    border_width: 2
+    border_height: 2
+    border_color: 0x9972FB
