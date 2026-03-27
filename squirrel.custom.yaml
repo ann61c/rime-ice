@@ -3,8 +3,8 @@
 patch:
   style:
     # 选择皮肤，亮色与暗色主题
-    color_scheme: google
-    color_scheme_dark: psionics
+    color_scheme: retro_light_pink
+    color_scheme_dark: retro_dark_pink
 
     # 以下是预设选项。如果皮肤没写，则使用这些属性；如果皮肤写了，使用皮肤的。
 
