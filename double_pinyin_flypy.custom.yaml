@@ -6,6 +6,7 @@ patch:
     collocation_min_length: 3
     collocation_penalty: -8
     rear_penalty: -18
+  translator/preedit_format: []          # 禁止双拼转换为全拼，输入框保持显示双拼码
   translator/contextual_suggestions: false
   translator/max_homophones: 9
   translator/max_homographs: 7
