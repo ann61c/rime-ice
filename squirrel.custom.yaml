@@ -3,8 +3,8 @@
 patch:
   style:
     # 选择皮肤，亮色与暗色主题
-    color_scheme: retro_light_pink
-    color_scheme_dark: retro_dark_pink
+    color_scheme: macbook_neo_blush
+    color_scheme_dark: macbook_neo_blush_dark
 
     # 以下是预设选项。如果皮肤没写，则使用这些属性；如果皮肤写了，使用皮肤的。
 
@@ -50,3 +50,32 @@ patch:
     #label_font_point: 12
     #comment_font_face: 'Avenir'
     #comment_font_point: 16
+
+  # MacBook Neo 桃粉 / Blush
+  # 取自系统 accent color：#FF7F99，深一档的 #E5657F，浅一档的 #FFA5BF
+  # Squirrel 的色值顺序是 0xBBGGRR，不是 0xRRGGBB
+  "preset_color_schemes/macbook_neo_blush":
+    name: MacBook Neo 桃粉
+    text_color: 0x7F65E5                    # #E5657F
+    back_color: 0xFFFFFF
+    label_color: 0x7F65E5
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_candidate_back_color: 0x997FFF
+    hilited_candidate_label_color: 0xFFFFFF
+    corner_radius: 16
+    border_width: 2
+    border_height: 2
+    border_color: 0x997FFF
+
+  "preset_color_schemes/macbook_neo_blush_dark":
+    name: MacBook Neo 桃粉・暗色
+    text_color: 0xBFA5FF                    # #FFA5BF
+    back_color: 0x1C1918
+    label_color: 0xBFA5FF
+    hilited_candidate_text_color: 0x1C1918
+    hilited_candidate_back_color: 0x997FFF  # #FF7F99
+    hilited_candidate_label_color: 0x1C1918
+    corner_radius: 16
+    border_width: 2
+    border_height: 2
+    border_color: 0x997FFF
